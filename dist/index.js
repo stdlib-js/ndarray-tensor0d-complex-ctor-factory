@@ -1,0 +1,5 @@
+"use strict";var c=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(i){throw (r=0, i)}};};var g=c(function(y,o){
+var f=require('@stdlib/assert-is-number-or-complex-like/dist').isPrimitive,s=require('@stdlib/assert-is-number/dist').isPrimitive,v=require('@stdlib/assert-is-function/dist'),p=require('@stdlib/ndarray-base-assert-is-data-type/dist'),b=require('@stdlib/ndarray-tensor0d-ctor-factory/dist'),a=require('@stdlib/error-tools-fmtprodmsg/dist');function q(t,r,i){var e;if(!p(t))throw new TypeError(a('nullH9',t));if(!f(r))throw new TypeError(a("invalid argument. Second argument must be either a number or complex number. Value: `%s`.",r));if(!v(i))throw new TypeError(a('null3N',i));return e=b(t,r,i),w;function w(n){var u,m;return u=arguments.length,u===0?new e:u===1?new e(n):u===2?s(n)&&s(arguments[1])?(m={re:n,im:arguments[1]},new e(m)):new e(n,arguments[1]):s(n)&&s(arguments[1])?(m={re:n,im:arguments[1]},new e(m,arguments[2])):new e(n,arguments[1],arguments[2])}}o.exports=q
+});var h=g();module.exports=h;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
